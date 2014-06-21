@@ -1,0 +1,6 @@
+Write a program to print the first 7 positive integers and their factorials. 
+
+(The factorial of 1 is 1, 
+the factorial of 2 is 1 * 2 = 2, 
+the factorial of 3 is 1 * 2 * 3 = 6, 
+the factorial of 4 is 1 * 2 * 3 * 4 = 24, etc.) 
