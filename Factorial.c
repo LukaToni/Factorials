@@ -4,19 +4,18 @@
 int main()
 {
     int i,j, fact;
-    for(i = 1; i <= 7; i++)
-    {
+    for(i = 1; i <= 7; i++) {
         fact = 1;
-        for(j = 1; j <= i; j++)
-        {
+        for(j = 1; j <= i; j++) {
             fact = fact *j;
-            if(j != i)
+            if(j != i) {
                 printf("%d * ", j);
-            else
+            }
+            else {
                 printf("%d = ", j);
+            }
         }
         printf("%d\n",fact);
     }
-    
     return 0;
 }
